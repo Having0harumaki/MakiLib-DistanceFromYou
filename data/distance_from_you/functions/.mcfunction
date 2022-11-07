@@ -8,4 +8,5 @@
     scoreboard players set distance.3 DistanceFromYou 0
 
 ## 探査を開始
-    execute facing entity @s feet positioned ^ ^ ^-0.00000001 run
+    execute facing entity @s feet positioned ^ ^ ^-0.00000001 run function distance_from_you:search/10
+
