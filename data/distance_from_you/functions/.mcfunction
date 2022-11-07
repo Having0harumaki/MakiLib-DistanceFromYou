@@ -10,3 +10,6 @@
 ## 探査を開始
     execute facing entity @s feet positioned ^ ^ ^-0.00000001 run function distance_from_you:search/10
 
+    title @s times 0 10 10
+    title @s title " "
+    title @s subtitle [{"score":{"objective": "DistanceFromYou","name": "distance"}},{"text": "m"}]
