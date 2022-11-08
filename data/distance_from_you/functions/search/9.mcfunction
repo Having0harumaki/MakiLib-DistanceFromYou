@@ -5,4 +5,4 @@
     execute if entity @s[distance=512..] positioned ^ ^ ^512 run function distance_from_you:search/8
 
 ### 512マス離れていない場合
-    execute if entity @s[distance=512..] run function distance_from_you:search/8
+    execute unless entity @s[distance=512..] run function distance_from_you:search/8
